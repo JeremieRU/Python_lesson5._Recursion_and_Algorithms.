@@ -7,8 +7,8 @@
 
 
 def degree(a,b):
-	if b == 1:
-		return a
+	if b == 0:
+		return 1
 	return a * degree(a,b-1)
 
 print(degree(int(input("Введите какое число возвести в степень: ")),int(input("Введите в какую степень возвести: "))))
